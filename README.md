@@ -4,7 +4,11 @@ The [Homebrew](https://brew.sh) tap for `bluebox`, the command-line interface of
 
 ## Install
 
-For the supported ways to install the CLI, see the [CLI reference](https://docs.bluebox.ai/cli).
+```bash
+brew install bluebox-hq/tap/bluebox
+```
+
+For the other ways to install the CLI, see the [CLI reference](https://docs.bluebox.ai/cli).
 
 ## Contributing
 
