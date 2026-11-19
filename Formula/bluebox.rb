@@ -8,23 +8,23 @@ class Bluebox < Formula
     depends_on macos: :monterey
 
     on_arm do
-      url "https://github.com/bluebox-hq/bluebox-cli/releases/download/v1.14.0/bluebox_1.14.0_darwin_arm64.tar.gz"
-      sha256 "38ad3e720c037267d859d0820a061b5e829a1493c0b0d7960f055f4b74175e9c"
+      url "https://github.com/bluebox-hq/bluebox-cli/releases/download/v1.14.1/bluebox_1.14.1_darwin_arm64.tar.gz"
+      sha256 "d6f3bfb629a240a92f6cda7356e7c7303ff4b8c406e2c9728b0b531d1da1d70c"
     end
     on_intel do
-      url "https://github.com/bluebox-hq/bluebox-cli/releases/download/v1.14.0/bluebox_1.14.0_darwin_amd64.tar.gz"
-      sha256 "2fdd234029dd829d9f7d6bb10e5c4721331d857c0ae6c896ae44c4300e28e00c"
+      url "https://github.com/bluebox-hq/bluebox-cli/releases/download/v1.14.1/bluebox_1.14.1_darwin_amd64.tar.gz"
+      sha256 "9c805954fa63a115755b5547a4631eb018b8a5fa10f09be8391695f53e52b35d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/bluebox-hq/bluebox-cli/releases/download/v1.14.0/bluebox_1.14.0_linux_arm64.tar.gz"
-      sha256 "cf8d90cd8fc293dd4545599b0008a2d2a097163eb072344851f1e5fc48ccd359"
+      url "https://github.com/bluebox-hq/bluebox-cli/releases/download/v1.14.1/bluebox_1.14.1_linux_arm64.tar.gz"
+      sha256 "e55e73268559d17fa084f1f1a1eff7f39ba0dc412a8ccb89409a9bfc5c5c51d3"
     end
     on_intel do
-      url "https://github.com/bluebox-hq/bluebox-cli/releases/download/v1.14.0/bluebox_1.14.0_linux_amd64.tar.gz"
-      sha256 "1e6bd9d3f861dea20f9b37a85be7101d1c7df97f3e21b087e83eea544ee44ced"
+      url "https://github.com/bluebox-hq/bluebox-cli/releases/download/v1.14.1/bluebox_1.14.1_linux_amd64.tar.gz"
+      sha256 "d2ceaaff0953f6287d7f14e3a5b3729ec6e5438549f176f311c6353081d4621d"
     end
   end
 
